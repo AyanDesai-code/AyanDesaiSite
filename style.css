@@ -194,7 +194,6 @@ section h2{
     grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
     gap:28px;
 }
-
 .card{
     background:white;
     border-radius:22px;
@@ -208,6 +207,8 @@ section h2{
     color:inherit;
 
     transition:.35s ease;
+
+    padding-bottom:20px;
 }
 
 .card:hover{
@@ -317,13 +318,4 @@ footer{
         grid-template-columns:1fr;
     }
 
-}
-.card h3{
-    padding:16px 18px 8px;
-}
-
-.card p{
-    padding:0 18px 18px;
-    color:#666;
-    line-height:1.6;
 }
